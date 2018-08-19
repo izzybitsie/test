@@ -5,7 +5,7 @@ def mul2(num):
 
 def print_times(num):
     for n in range(num):
-        print(f"{n} multiplied by 2 is {mul2(n)}")
+        print("{} multiplied by 2 is {}".format(n, mul2(n)))
 
 
 if __name__ == "__main__":
